@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfStudentCL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StudentCL>
+    <Name>czxcz</Name>
+    <Sex>Ж</Sex>
+    <Curs>3</Curs>
+    <Special>ИСИТ </Special>
+    <Group>11</Group>
+    <Age>22</Age>
+    <Adress>
+      <City>dsfsf</City>
+      <Street>dfsdsf</Street>
+      <House>3333</House>
+      <Flat>33</Flat>
+      <Index>33</Index>
+    </Adress>
+    <ID>0</ID>
+  </StudentCL>
+</ArrayOfStudentCL>ntCL>>

@@ -8,3 +8,13 @@ C:\Users\Oleg\source\repos\ЛР 1\ЛР 1\obj\Debug\ЛР 1.csproj.GenerateResourc
 C:\Users\Oleg\source\repos\ЛР 1\ЛР 1\obj\Debug\ЛР 1.csproj.CoreCompileInputs.cache
 C:\Users\Oleg\source\repos\ЛР 1\ЛР 1\obj\Debug\ЛР 1.exe
 C:\Users\Oleg\source\repos\ЛР 1\ЛР 1\obj\Debug\ЛР 1.pdb
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\obj\Debug\ЛР 1.csproj.AssemblyReference.cache
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\obj\Debug\ЛР_1.Form1.resources
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\obj\Debug\ЛР_1.Properties.Resources.resources
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\obj\Debug\ЛР 1.csproj.GenerateResource.cache
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\obj\Debug\ЛР 1.csproj.CoreCompileInputs.cache
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\obj\Debug\ЛР 1.exe
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\obj\Debug\ЛР 1.pdb
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\bin\Debug\ЛР 1.exe.config
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\bin\Debug\ЛР 1.exe
+D:\БГТУ\ООП 4 сем\ЛР 1\ЛР 1\bin\Debug\ЛР 1.pdb

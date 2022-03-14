@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ArrayOfStudentCL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StudentCL>
+    <Name>sdadcdasc</Name>
+    <Sex>Ж</Sex>
+    <Curs>4</Curs>
+    <Special>ПОИТ </Special>
+    <Group>8</Group>
+    <Age>20</Age>
+    <Adress>
+      <City>ecwdc</City>
+      <Street>333</Street>
+      <House>333</House>
+      <Flat>33333</Flat>
+      <Index>3333</Index>
+    </Adress>
+    <ID>0</ID>
+  </StudentCL>
+</ArrayOfStudentCL>entCL>sciplineCL>eCL>neCL>
+    <Name>Композиция</Name>
+    <Semester>1</Semester>
+    <Curs>2</Curs>
+    <Special>ДЭиВИ </Special>
+    <KolLek>11</KolLek>
+    <KolLab>11</KolLab>
+    <Control>Экзамен</Control>
+    <Lektor>
+      <Fio>И,И,Исаков</Fio>
+      <Cafedra>Дизайн</Cafedra>
+      <Cabinet>421</Cabinet>
+    </Lektor>
+    <ID>1</ID>
+  </DisciplineCL>
+</ArrayOfDisciplineCL>

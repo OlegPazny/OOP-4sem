@@ -54,27 +54,101 @@ namespace ЛР_1
 
         private void SumBtn_Click(object sender, EventArgs e)
         {
-            ResultBox.Text = Convert.ToString(sum(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+            try
+            {
+                if(aBox.Text != "" || bBox.Text != "")
+                {
+                    ResultBox.Text = Convert.ToString(sum(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+                }
+            }
+            catch (Exception ex)
+            {
+                ResultBox.Text = ex.Message;
+                ResultBox.Text = "Введите еще одно число!";
+            }
+            //ResultBox.Text = Convert.ToString(sum(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
         }
 
         private void SubstrBtn_Click(object sender, EventArgs e)
         {
-            ResultBox.Text = Convert.ToString(substr(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+            try
+            {
+                if (aBox.Text != "" || bBox.Text != "")
+                {
+                    ResultBox.Text = Convert.ToString(substr(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+                }
+            }
+            catch (Exception ex)
+            {
+                ResultBox.Text = ex.Message;
+                ResultBox.Text = "Введите еще одно число!";
+            }
+            //ResultBox.Text = Convert.ToString(substr(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
         }
 
         private void MultBtn_Click(object sender, EventArgs e)
         {
-            ResultBox.Text = Convert.ToString(multipl(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+            try
+            {
+                if (aBox.Text != "" || bBox.Text != "")
+                {
+                    ResultBox.Text = Convert.ToString(multipl(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+                }
+            }
+            catch (Exception ex)
+            {
+                ResultBox.Text = ex.Message;
+                ResultBox.Text = "Введите еще одно число!";
+            }
+            //ResultBox.Text = Convert.ToString(multipl(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
         }
 
         private void DevBtn_Click(object sender, EventArgs e)
         {
-            ResultBox.Text = Convert.ToString(dev(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+            try
+            {
+                if (aBox.Text != "" || bBox.Text != "")
+                {
+                    ResultBox.Text = Convert.ToString(dev(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+                }
+                /*else if (bBox.Text == "0")
+                {
+                    try
+                    {
+                        if (bBox.Text != "0")
+                        {
+                            ResultBox.Text = Convert.ToString(dev(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+                        }
+                    }
+                    catch (DivideByZeroException)
+                    {
+                        ResultBox.Text = "На 0 делить нельзя!";
+                    }
+                }*/
+            }
+            catch (Exception ex)
+            {
+                ResultBox.Text = ex.Message;
+                ResultBox.Text = "Введите еще одно число!";
+            }
+            //ResultBox.Text = Convert.ToString(dev(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
         }
 
         private void RestBtn_Click(object sender, EventArgs e)
         {
-            ResultBox.Text = Convert.ToString(rest(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+            try
+            {
+                if (aBox.Text != "" || bBox.Text != "")
+                {
+                    ResultBox.Text = Convert.ToString(rest(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
+                }
+            }
+            catch (Exception ex)
+            {
+                ResultBox.Text = ex.Message;
+                ResultBox.Text = "Введите еще одно число!";
+            }
+            //ResultBox.Text = Convert.ToString(rest(Convert.ToDouble(aBox.Text), Convert.ToDouble(bBox.Text)));
         }
         //кнопка очистки
         private void CleanBtn_Click(object sender, EventArgs e)
